@@ -128,9 +128,8 @@ header .btn-menu {
   font-size: 2.5rem;
   padding: 1rem 1.3rem;
   border-radius: .5rem;
-  color: var(--main-color);
-  background: var(--bg);
   display: none;
+  color: var(--black);
 }
 
 /* Sección inicio */
@@ -388,7 +387,7 @@ header .btn-menu {
 }
 
 @media (max-width: 768px) {
-  .btn-menu {
+  header .btn-menu {
     display: initial;
   }
   header .menu {
