@@ -106,9 +106,8 @@ header {
         font-size: 2.5rem;
         padding: 1rem 1.3rem;
         border-radius: .5rem;
-        color: var(--main-color);
-        background: var(--bg);
         display: none;
+        color: var(--black);
     }
 }
 /* Sección inicio */
@@ -304,10 +303,10 @@ header {
     }
 }
 @media (max-width:768px) {
-    .btn-menu {
-        display: initial;
-    }
     header {
+        .btn-menu {
+            display: initial;
+        }
         .menu {
             position: absolute;
             top:115%; right: 2rem;
