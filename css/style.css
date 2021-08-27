@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 :root {
-  --main-color: #004163;
+  --main-color: #795d6e;
   --black:#333;
   --light-color:#555;
-  --bg:   #d5d7e1;
+  --bg:   #efeff0;
   --border:.1rem solid rgba(0,0,0,.1);
   --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -111,6 +111,8 @@ header .logo {
 
 header .logo span {
   color: var(--main-color);
+  border-radius: .5rem;
+  background: var(--bg);
 }
 
 header .menu a {
